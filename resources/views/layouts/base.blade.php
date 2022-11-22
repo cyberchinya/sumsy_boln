@@ -3,11 +3,9 @@
     БУЗ УР "Сюмсинская районная больница МЗ УР"
 @endsection
 @section('styles')
-
     @section('content')
     @endsection
     <!-- ======= Hero Section ======= -->
-    {{--@include('cookie-consent::index')--}}
     <section id="hero" class="d-flex align-items-center">
         <div class="container">
             <h1>Добро пожаловать</h1>
@@ -15,19 +13,8 @@
         </div>
 
     </section>
-
     <!-- End Hero -->
     <main id="main">
-        <!-- ======= Counts Section ======= -->
-{{--      <section id="counts" class="counts">
-          <div class="container">
-                <div class="row">
-
-                </div>
-        </section>--}}
-        <!-- End Counts Section -->
-
-        <!-- ======= Services Section ======= -->
         <section id="services" class="services">
             <div class="container">
                 <div class="section-title">
@@ -68,7 +55,7 @@
         </section><!-- End Services Section -->
 
         <!-- ======= Departments Section ======= -->
-        <section id="departments" class="departments">
+{{--        <section id="departments" class="departments">
             <div class="container">
 
                 <div class="section-title">
@@ -162,11 +149,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>--}}
         <!-- End Departments Section -->
 
         <!-- ======= Frequently Asked Questions Section ======= -->
-        <section id="faq" class="faq section-bg">
+{{--        <section id="faq" class="faq section-bg">
             <div class="container">
 
                 <div class="section-title">
@@ -225,7 +212,7 @@
                 </div>
 
             </div>
-        </section>
+        </section>--}}
         <!-- End Frequently Asked Questions Section -->
         <!-- ======= Gallery Section ======= -->
         <section id="gallery" class="gallery">

@@ -65,7 +65,7 @@
                         <li><a href="#">Информация</a></li>
                         <li><a href="#">Обратная связь</a></li>
                         <li><a href="#">Вопросы и ответы</a></li>
-                        <li><a href="#appointment">Спасибо доктор</a></li>
+                        <li><a href="{{ route('doctor') }}">Спасибо доктор</a></li>
                         <li><a class="nav-link scrollto active" href="#faq">Часто задаваемые вопросы</a></li>
                         <li><a href="#">График работы</a></li>
                         <li><a href="#">Антикоррупционная деятельность</a></li>
