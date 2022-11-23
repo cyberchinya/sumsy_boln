@@ -67,10 +67,9 @@
                          Отправить сообщение
                      </button>
                     <div>
-            </div>
+               </div>
             </form>
-
-    </section>
+     </section>
     </body>
     @include('layouts.footer')
     <script src="{{ asset('assets/vendor/purecounter/purecounter.js') }}"></script>

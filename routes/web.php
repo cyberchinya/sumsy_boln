@@ -15,3 +15,7 @@ Route::get('/news', function () {
 Route::get('/doctor', function () {
     return view('doctor');
 })->name('doctor');
+
+Route::get('/faq', function () {
+    return view('faq');
+})->name('faq');

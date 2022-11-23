@@ -233,7 +233,7 @@ return [
             'actions' => [
                 'alignment' => 'left',
             ],
-            'have_inline_labels' => false,
+            'have_inline_labels' => true,
         ],
         'footer' => [
             'should_show_logo' => false,
@@ -244,7 +244,7 @@ return [
             'alignment' => 'right',
         ],
         'sidebar' => [
-            'is_collapsible_on_desktop' => false,
+            'is_collapsible_on_desktop' => true,
             'groups' => [
                 'are_collapsible' => true,
             ],
