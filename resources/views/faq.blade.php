@@ -172,7 +172,7 @@
                 </div>
 
             </div>
-       <a href="/" class="block">На главную</a>
+       <a href="/" class="block btn-sm btn-outline-primary">На главную</a>
         </section>
     @include('layouts.footer')
     <script src="{{ asset('assets/vendor/purecounter/purecounter.js') }}"></script>

@@ -11,3 +11,4 @@ https://github.com/spatie/laravel-honeypot
 админ панель:
 https://filamentphp.com
 </p>
+<h2>В дальнейших планах интеграция записи на приём к врачу с сайта ...</h2>
