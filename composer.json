@@ -8,6 +8,7 @@
         "php": "^8.0.2",
         "codeat3/blade-carbon-icons": "^2.9",
         "codeat3/blade-eos-icons": "^1.12",
+        "codeat3/blade-fluentui-system-icons": "^1.31",
         "codeat3/blade-iconpark": "^1.4",
         "filament/filament": "^2.16",
         "filament/spatie-laravel-media-library-plugin": "^2.0",
