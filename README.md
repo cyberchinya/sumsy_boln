@@ -8,7 +8,7 @@ Laravel 9, Bootstrap 5, Livewire
 https://github.com/spatie/laravel-honeypot
 </p>
 <p>
-админ панель:
+АП:
 https://filamentphp.com
 </p>
 <h2>В дальнейших планах интеграция записи на приём к врачу с сайта ...</h2>

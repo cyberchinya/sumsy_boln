@@ -1,1 +1,19 @@
+.section-title {
+    margin-top: 8%;
+}
+article + article {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-top: 3rem;
+    text-align: justify;
+}
+p {
+    line-height: 1.6;
+}
+.block {
+    margin-left: 3%;
+}
 
