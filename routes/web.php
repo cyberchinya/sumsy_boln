@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\News;
 use Illuminate\Support\Facades\Route;
 /*use App\Http\Controllers\NewsController;*/
 
@@ -8,8 +9,9 @@ Route::get('/', function () {
     return view('layouts.base');
 });
 
-Route::get('/news', function () {
-    return view('news');
+$news = News::all();
+Route::get('/news', function () use ($news) {
+    return view('news', ['news'=>$news]);
 })->name('news');
 
 Route::get('/doctor', function () {

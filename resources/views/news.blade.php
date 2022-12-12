@@ -120,12 +120,10 @@
     <div class="section-title">
     <h1 class="container-fluid text-center">Новости</h1>
     </div>
-      <p class="mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur beatae corporis culpa dolorem dolorum, earum eum excepturi
-          facilis harum necessitatibus nesciunt non officia omnis porro quod sed velit voluptas voluptatem.</p>
-    <p class="mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur beatae corporis culpa dolorem dolorum, earum eum excepturi
-        facilis harum necessitatibus nesciunt non officia omnis porro quod sed velit voluptas voluptatem.</p>
-    <p class="mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem beatae consequuntur debitis dicta distinctio explicabo iste molestias
-        necessitatibus, officia omnis perspiciatis quam, quibusdam similique sint tempora ullam unde, vitae.</p>
+    @foreach($news as $list) {!! $list->title !!} @endforeach
+    @foreach($news as $list) {!! $list->desk !!} @endforeach
+    @foreach($news as $list) {!! $list->image !!} @endforeach
+    @foreach($news as $list) {!! $list->content !!} @endforeach
 </article>
  <a href="/" class="block">На главную</a>
 @include('layouts.footer')

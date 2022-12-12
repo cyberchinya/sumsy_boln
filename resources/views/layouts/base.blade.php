@@ -11,7 +11,7 @@
             <h1>Добро пожаловать</h1>
             <h2>БУЗ УР "Сюмсинская районная больница МЗ УР"</h2>
         </div>
-        @include('cookie-consent::index')
+
     </section>
     <!-- End Hero -->
     <main id="main">
