@@ -7,6 +7,11 @@
             <i class="bi bi-phone"></i> Регистратура : 8(3412) 27-14-60
         </div>
 
+        <div class="social-links text-md-right pt-3 pt-md-0">
+            <a href="https://vk.com/sumsirb" target="_blank" class="vk"><i class="bx bxl-vk"></i>
+            </a>
+        </div>
+
         <img id="specialButton" style="cursor:pointer;" src="{{ asset('assets/img/eye.png') }}"
              alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" />
     </div>

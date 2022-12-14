@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d421369f749106a6ea360106d7645dbd",
+    "content-hash": "c54be2132157e7c2ee0830824b8ea711",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -73,6 +73,64 @@
                 "source": "https://github.com/akaunting/laravel-money/tree/3.1.2"
             },
             "time": "2022-07-27T08:16:36+00:00"
+        },
+        {
+            "name": "andreiio/blade-remix-icon",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andreiio/blade-remix-icon.git",
+                "reference": "b25796c992a7c9be674febceb3594d39fb6b9e96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andreiio/blade-remix-icon/zipball/b25796c992a7c9be674febceb3594d39fb6b9e96",
+                "reference": "b25796c992a7c9be674febceb3594d39fb6b9e96",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0|^7.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "AndreiIonita\\BladeRemixIcon\\BladeRemixIconServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AndreiIonita\\BladeRemixIcon\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrei Ioniță",
+                    "homepage": "https://andrei.io"
+                }
+            ],
+            "description": "A package to easily make use of Remix Icon in your Laravel Blade views.",
+            "support": {
+                "issues": "https://github.com/andreiio/blade-remix-icon/issues",
+                "source": "https://github.com/andreiio/blade-remix-icon/tree/1.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/andreiio",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-01-20T12:54:02+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -494,6 +552,79 @@
                 }
             ],
             "time": "2022-08-22T18:57:03+00:00"
+        },
+        {
+            "name": "codeat3/blade-google-material-design-icons",
+            "version": "1.16.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeat3/blade-google-material-design-icons.git",
+                "reference": "65ac88bc00a946a2750120c838fdeba590d68516"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeat3/blade-google-material-design-icons/zipball/65ac88bc00a946a2750120c838fdeba590d68516",
+                "reference": "65ac88bc00a946a2750120c838fdeba590d68516",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.1",
+                "illuminate/support": "^8.0|^9.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "codeat3/blade-icon-generation-helpers": "^0.1",
+                "codeat3/phpcs-styles": "^1.0",
+                "orchestra/testbench": "^6.0|^7.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Codeat3\\BladeGoogleMaterialDesignIcons\\BladeGoogleMaterialDesignIconsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codeat3\\BladeGoogleMaterialDesignIcons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Swapnil Sarwe",
+                    "homepage": "https://swapnilsarwe.com"
+                },
+                {
+                    "name": "Dries Vints",
+                    "homepage": "https://driesvints.com"
+                }
+            ],
+            "description": "A package to easily make use of \"Google Fonts Material Icons\" in your Laravel Blade views.",
+            "homepage": "https://github.com/codeat3/blade-google-material-design-icons",
+            "keywords": [
+                "blade",
+                "google",
+                "icons",
+                "laravel",
+                "material"
+            ],
+            "support": {
+                "issues": "https://github.com/codeat3/blade-google-material-design-icons/issues",
+                "source": "https://github.com/codeat3/blade-google-material-design-icons/tree/1.16.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/swapnilsarwe",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-12-05T12:50:15+00:00"
         },
         {
             "name": "codeat3/blade-iconpark",

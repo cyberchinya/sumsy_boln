@@ -8,7 +8,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="Сюмсинская районная больница">
     <title>@yield('title')</title>
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+    {{--<meta name="csrf-token" content="{{ csrf_token() }}">--}}
     <meta content="" name="keywords">
     <!-- Favicons -->
     <link href="{{ asset('assets/img/herb3.png') }}" rel="icon">
@@ -120,10 +120,12 @@
     <div class="section-title">
     <h1 class="container-fluid text-center">Новости</h1>
     </div>
-    @foreach($news as $list) {!! $list->title !!} @endforeach
-    @foreach($news as $list) {!! $list->desk !!} @endforeach
-    @foreach($news as $list) {!! $list->image !!} @endforeach
-    @foreach($news as $list) {!! $list->content !!} @endforeach
+    @foreach($news as $list)
+     {!! $list->title !!}
+     {!! $list->desk !!}
+     {!! $list->image !!}
+     {!! $list->content !!}
+     @endforeach
 </article>
  <a href="/" class="block">На главную</a>
 @include('layouts.footer')
