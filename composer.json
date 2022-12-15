@@ -6,12 +6,6 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
-        "andreiio/blade-remix-icon": "^1.1",
-        "codeat3/blade-carbon-icons": "^2.9",
-        "codeat3/blade-eos-icons": "^1.12",
-        "codeat3/blade-fluentui-system-icons": "^1.31",
-        "codeat3/blade-google-material-design-icons": "^1.16",
-        "codeat3/blade-iconpark": "^1.4",
         "filament/filament": "^2.16",
         "filament/spatie-laravel-media-library-plugin": "^2.0",
         "guzzlehttp/guzzle": "^7.2",
