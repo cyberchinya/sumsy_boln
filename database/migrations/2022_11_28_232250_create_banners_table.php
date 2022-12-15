@@ -20,7 +20,6 @@ return new class extends Migration
             $table->text('image')->nullable();
             $table->boolean('visible')->default(false);
             $table->boolean('is_published')->default(false);
-            $table->date('created_at');
             $table->softDeletes();
             $table->timestamps();
         });
