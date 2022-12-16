@@ -64,7 +64,7 @@
 <script src="{{ asset('assets/sleep/js/uhpv-full.min.js') }}"></script>
 <!-- Template Main JS File -->
 <script src="{{ asset('assets/js/main.js') }}"></script>
-div style="display:none;">
+<div style="display:none;">
 <div id="modalbox">
     <h2 class="informac">Информация</h2>
     <p>Ознакомьтесь пожалуйста с&nbsp;материалами по&nbsp;профилактике злокачественных новообразований и&nbsp;заполните анкету.</p>
