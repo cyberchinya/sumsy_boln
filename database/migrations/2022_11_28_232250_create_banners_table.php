@@ -17,9 +17,12 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->text('description');
-            $table->text('image')->nullable();
+            $table->string('image')->nullable();
+            $table->string('url')->nullable();
+            $table->text('code')->nullable();
+            $table->string('position')->nullable();
             $table->boolean('visible')->default(false);
-            $table->boolean('is_published')->default(false);
+            $table->integer('sort')->default(0);
             $table->softDeletes();
             $table->timestamps();
         });

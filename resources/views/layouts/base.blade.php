@@ -17,6 +17,18 @@
     <main id="main">
         <section id="services" class="services">
             <div class="container">
+                @if($topBanner)
+                <div>
+                    @if($topBanner->code)
+                        {!! $topBanner->code !!}
+                    @else
+                        <a href="{{$topBanner->url?? '#'}}">
+                            <img src="/storage/banners/{{ $topBanner->image }}"/>
+                        </a>
+                    @endif
+                </div>
+                @endif
+
                 <div class="section-title">
                     <div class="mt-lg-5">
                     <h2>Сервисы</h2>
