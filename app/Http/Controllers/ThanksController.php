@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Thank;
 use Illuminate\Http\Request;
 
-class DoctorController extends Controller
+class ThanksController extends Controller
 {
     public function index()
     {
@@ -13,11 +14,14 @@ class DoctorController extends Controller
 
     public function store(Request $request)
     {
-        $request->validate([
+        $data = $request->validate([
             'name' => ['required','string'],
             'email' => ['required','string'],
             'phone' => ['required','min_digits:7'],
             'message' => ['required','string','max:100']
         ]);
+
+        Thank::create($data);
+        return redirect()->route('thanks');
     }
 }

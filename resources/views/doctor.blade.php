@@ -46,7 +46,7 @@
                     <li>{{$message}}</li>
                    @endforeach
                </ul>
-             <form action="{{ route('doctor') }}" method="post">
+             <form action="{{ route('thanks.store') }}" method="post">
                  @csrf
                 <div class="row">
                     <div class="col-md-4 form-group">
